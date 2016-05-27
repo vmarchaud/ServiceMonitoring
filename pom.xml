@@ -62,7 +62,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>fr.thisismac.monitoring.Core</mainClass>
+							<mainClass>fr.thisismac.monitoring.Main</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
