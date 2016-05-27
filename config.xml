@@ -1,0 +1,33 @@
+<config>
+    <general>
+        <queryInterval>30</queryInterval>
+        <sendBackOnlineAlert>true</sendBackOnlineAlert>
+        <queryTimeOut>6000</queryTimeOut>
+        <apiKeyForPushbullet>YOUR API KEY</apiKeyForPushbullet>
+    </general>
+    <servers>
+        <server>
+            <name>Website</name>
+            <hostname>http://yoursite.fr</hostname>
+            <port>80</port>
+            <type>http</type>
+            <sendAlertTo>
+                <device>NameOfDevice</device>
+            </sendAlertTo>
+        </server>
+        <server>
+            <name>Minecraft Server</name>
+            <hostname>localhost</hostname>
+            <port>25565</port>
+            <type>tcp</type>
+            <sendAlertTo>
+                <device>NameOfDevice</device>
+                <device>NameOfDevice</device>
+            </sendAlertTo>
+            <ignoreDownAt>
+            	<begin>04:55</begin>
+            	<end>05:00</end>
+            </ignoreDownAt>
+        </server>
+    </servers>
+</config>
